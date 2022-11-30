@@ -1,0 +1,127 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ced4da;
+    box-sizing: border-box;
+    padding: 4.7rem;
+    
+    /* border: 2px solid red; */
+}
+.formsection{
+    display: flex;
+    /* border:2px solid blueviolet; */
+    box-shadow: 2px 2px 12px 0px #1d3557;
+    background-color: #fff;
+}
+
+.formimg img{
+    
+    width: 330px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: -4px;
+}
+
+.mainfrm{
+    
+    display: block;
+    /* border: 2px solid yellow; */
+    padding: 2rem 0.5rem;
+    margin: auto 4rem;
+    /* flex-direction: column; */
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2rem;
+}
+
+.mainfrm h3{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.mainfrm .insig{
+
+    padding: 0.5rem ;
+    color: #01495f;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1d3557;
+    border-radius:0.3rem ;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.btnblue{
+   
+    width: 100%;
+    background: #01495f;
+    color: #fff;
+    padding: 0.7rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 0.5rem;
+    /* color: #01495f; */
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1d3557;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: none;
+}
+.devin{
+    position: relative;
+}
+.devin img{
+    width: 19px;
+    position: absolute;
+    margin: 7px;
+}
+.mainfrm button{
+    
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    background-color: #1d3557;
+    color: #fff;
+    font-weight: bold;
+}
+.mainfrm button:hover{
+    transition: all 0.3s ease-in-out;
+    background: transparent;
+    border: 1px solid #01495f;
+    color: #1d3557;
+}
+.mainfrm .alertbar{
+
+    background-color: #ffd166;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 854px){
+
+        
+        .formimg{
+            display: none;
+        }       
+        .formsection{
+            /* width: 89vw; */
+            justify-content: center;
+            align-items: center;
+        }
+        
+
+}

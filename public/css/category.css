@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.tophds{
+
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+        background: #f1f2f3;
+    justify-content: space-between;
+}
+.tophds h1{
+
+    margin: 0;
+    font-size: 2rem;
+    color: #01497c;
+    font-family: 'Poppins';
+}
+.tophds #search{
+
+    padding: 0;
+    border:none;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.catstrshs{
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    padding: 1rem;
+    /* background-color: #fff !important; */
+    
+    
+}
+.catstry{
+   display: flex;
+}
+.catstrshs .stry12 a{
+    
+    font-family: 'Poppins',monospace;
+    color: #121812;
+}
+.catstrshs .stry12 h2{
+    font-family: 'Poppins',monospace;
+    font-size: 1.2rem;
+    color: #121812;
+}
+.catstrshs .stry12 .catehdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.catstrshs .stry12{
+    border: 1px solid #01497c;
+    display: inline-block;
+    /* height: 152px; */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.catstrshs .stry12:hover{
+    box-shadow: 0px 4px 15px 5px #d6d7d8;
+    transform: scale3d(1.03, 1.03, 1.03);
+}
+.catehdf{
+    display: flex;
+}
+
+.catehdf img{
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+.catehdf .catcont{
+    padding: 0.5rem;
+    display: inline-block;
+}
+.catcont span{
+    margin-left: 0.5rem;
+}
+.catcont .dt{
+    font-weight: 900;
+}
+
+
+/* responsive */
+
+
+@media only screen and (max-width: 1024px){
+ 
+.catstry{
+    display:flex;
+    overflow: scroll;
+}
+
+
+}

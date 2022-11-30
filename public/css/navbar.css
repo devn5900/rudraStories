@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.mainnav{
+    display: flex;
+    width: 100%;
+    background-color: #0988a8;
+}
+button{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.mainnav .left{
+    cursor: pointer;
+    text-align: center;
+    margin-left: 15px;
+    padding: 0.5rem;
+    
+}
+.mainnav .left h2{
+    
+    font-size: 2.5rem;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 0.2rem;
+    font-family: 'RocknRoll One', sans-serif;
+    font-weight: 1rem;
+    color: #fff; 
+    
+}
+#closeslider{
+    display: none;
+}
+#slider{
+    display: none;
+}
+
+
+.mainnav  #closeslider img{
+    filter: invert(100%);
+    width: 2rem;
+    height: 2rem;
+}
+.mainnav .left h2 span{
+    padding:0px 10px;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 2.5rem;
+    margin-left: 13px ;
+    color: #fff;
+}
+.mainnav .left h2 span:hover{
+
+    background-color: #fff;
+    color: #0988a8;
+    padding:0px 10px;
+    border-radius: 10px;
+    
+    transition: all 0.5s ease-in-out;
+}
+.mainnav .left h2:hover{
+
+        color: #021e25;
+   
+}
+.mainnav .mid{
+   margin: 0px auto;
+}
+.mainnav .mid ul{
+    display: flex;
+    justify-content: center;
+}
+.mainnav .mid ul li{
+    list-style: none;
+    margin: auto;
+    padding-top: 26px;
+}
+.mainnav .mid ul li:hover {
+    
+    background-color: #fff;
+    padding-bottom: 3px;
+    border-radius: 0 0 3px 3px;
+    color: #0988a8;
+
+}
+.mainnav .mid ul li a{
+    text-decoration: none ;
+    font-size: 1.4rem;
+    color: #fff;
+    transition: all 0.5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #0988a8; */
+    padding:0.3rem 0.7rem;
+    margin:1.0rem;
+    border-radius: 4px;
+}
+.mainnav .mid ul li a:hover{
+    color: #0988a8;
+}
+.mainnav .right .logout:hover{
+    background-color:#fff ;
+    color: #0988a8;
+}
+.mainnav .right{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mainnav .right img{
+
+    width: 3rem;
+    height: 3rem;
+    filter:invert(100%);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.mainnav .right img:hover{
+    
+    filter: invert(70%);
+    transition: all 0.5s ease-in-out;
+}
+.mainnav .right .logout{
+    text-decoration: none ;
+    font-size: 1.4rem;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:transparent;
+    border: 1px solid #fff;
+    padding:0.2rem 0.5rem;
+    margin:0.3rem;
+    border-radius: 0.5rem;
+}
+
+
+ /* responsive for mobile */
+
+@media only screen and (max-width: 854px){
+    .mainnav{
+        display: block;
+        /* width: 100%; */
+    }
+    .mainnav .mid ul {
+        display: block;
+    }
+    .mainnav .mid ul li{
+        padding: 0.5rem;
+    }
+    .mainnav .mid ul li a{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        background-color: transparent;
+}
+
+    .mainnav .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+        padding: 0.5rem 0;
+    }
+    .mid{
+        display: none;
+        background: 
+        linear-gradient(
+          rgba(36, 18, 18, 0.5),
+          rgba(0, 0, 0, 0.2));
+    }
+    #slidetop{
+        display: none;
+         align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+     
+    .mainnav  .slideimg{
+        display: flex;
+        align-items: center;
+        padding:0 3rem;
+        justify-content: space-between;
+        
+    }
+    #closeslider{
+        display: none;
+    }
+    #slider{
+        display:flex ;
+    }
+    .mainnav .slideimg #slider img{
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        outline: none;
+       filter: invert(100%);
+    }
+   .mainnav .right{
+       display: none;
+       width: auto;
+   }
+}

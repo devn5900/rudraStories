@@ -1,0 +1,156 @@
+
+
+.mainabout{
+    display: flex;
+    /* border: 2px solid red; */
+    background-color: #f1f2f3;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.mainabout .leftab{
+    /* width: auto; border:2px solid green; */
+    border-radius: 0.5rem;
+    margin: 2rem;
+    background-color: #fff;
+}
+.mainabout .leftab .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+} 
+.mainabout .leftab .about .aboutimg{
+    margin: 1rem;
+}
+.mainabout .leftab .about .aboutimg img{
+    width: 20vw;
+    height: 45vh;
+    box-shadow: 0.2rem 0.2rem  0.7rem #14414d;
+}
+.mainabout .leftab .about .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+.mainabout h2,.mainabout h3{
+    font-family:'Poppins', 'RocknRoll One', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #01497c;
+}
+.mainabout h4{
+  
+    font-family:'RocknRoll One', sans-serif;
+    color: #01497c;
+}
+
+.mainabout .rightab .info{
+    /* border: 2px solid black; */
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    display: flex;
+    padding: 2rem 3rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainabout .rightab .info .conlink{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+.mainabout .rightab .info .conlink .links{
+    display: flex;
+    flex-direction: column;
+}
+.mainabout .rightab .info .conlink .links a{
+    text-decoration: none;
+}
+.mainabout .rightab .bio{
+    margin: 2.5rem;
+    font-size: 1.3rem;
+}
+.mainabout .rightab .bio h2{
+    margin: 1rem;
+}
+.mainabout .rightab .bio p{
+    font-size: large;
+}
+.links a{
+    color: #e28743;
+}
+.links a:hover{
+    color: #01497c;
+}
+
+
+@media only screen and (max-width: 854px){
+    
+    .mainabout{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainabout .rightab .info{
+        padding: 1rem 1.5rem;
+    }
+    .mainabout .rightab .info .conlink {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            font-size: 1rem;
+            margin: 0;
+        }
+        .mainabout .rightab .info .conlink .links {
+            display: block;
+            margin-top: 16px;
+        }
+        .mainabout .rightab .bio {
+            margin: 0;
+            font-size: 1rem;
+        }
+            
+    .mainabout .leftab .about{
+        
+        margin: 1rem;
+    }
+    .mainabout .leftab .about .aboutimg {
+        margin: 0;
+    }
+    .mainabout .leftab .about .aboutimg img {
+        width: 13rem;
+        height: 15rem;
+    }
+    .mainabout .leftab .about .name {
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-top: 0.5rem;
+    }
+    .mainabout .leftab .about .name h2 {
+
+        text-align: center;
+    }
+    .min{
+
+        font-size: 15px;
+    }
+   
+}
+
+@media only screen and (max-width:1086px) and (min-width:854px){
+
+    .mainabout{
+        display: block;
+        padding: 1rem 0 1rem 0;
+    }
+    .mainabout .leftab .about .aboutimg img {
+        width: 39vw;
+        height: 50vh;
+    }
+    
+}

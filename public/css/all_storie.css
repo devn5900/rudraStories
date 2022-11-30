@@ -1,0 +1,124 @@
+.abstry{
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0 0 0;
+}
+.abstry h1{
+    color: #0988a8;
+    font-family: 'Poppins','Noto Sans JP',sans-serif;;
+    padding: 0.5rem;
+    font-size: 3rem;
+}
+.abstry #search{
+
+    padding: 0;
+    border:none;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allstryright{
+    display: grid;
+    grid-template-columns: repeat(4, 262px [col-start]);
+    grid-gap: 10px 20px;
+    /* margin-top: 1rem; */
+    padding: 1rem;
+    /* background: #f1f2f3; */
+}
+.allstryright .stry1 img{
+
+    width: 100%;
+    max-height: 165px;
+    display: block;
+  
+}
+.allstryright .stry1 >img:hover{
+    transition: all 0.5s ;
+    transform: scale(1.03);
+}
+.allstryright .stry1 h2{
+    background: #0988a8;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+}
+.allstryright .allstryshow:hover{
+    
+    box-shadow: -1px 1px 38px 5px #d6d7d8;
+    transform: scale3d(1.03, 1.03, 1.03);
+}
+.allstryright .allstryshow{
+    /* margin: 14px; */
+    /* border-radius: 10px; */
+    /* width: 302px; */
+    display: inline-block;
+    background: #fff;
+    overflow: hidden;
+    /* background-color: #e9e9e9; */
+    border: 1px solid #e9e9e9;
+    transition: all .3s ease-in-out;
+    /* background-color: #e9e9e9; */
+    border-radius: 10px;  
+    border: 1px solid #e9e9e9;
+}
+
+.allstryright .stry1 #dot{
+    display: inline-block;
+    margin: 0;
+}
+.allstryright .stry1 #more{
+
+    display: none;
+}
+.allstryright .stry1 p{
+    padding: 5px 2px;
+    /* word-spacing: 2px; */
+    text-align: center;
+}
+.allstryright .stryno1{
+    
+    display: inline-block;
+    
+}
+
+.allstryright .stry1 #morebtn{
+    
+    transition: all 0.3s ease-in-out;
+    padding: 6px 12px;
+    background-color: #0988a8;
+    color: #f5fff6;
+    font-family: 'Poppins',Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    border: 1px solid #0988a8;
+    font-size: 1rem;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: auto;
+}
+.stbtn{
+    display: flex;
+}
+.allstryright .stry1 a{
+    text-decoration: none;
+}
+
+.allstryright .stry1 #morebtn:hover{
+    color: #0988a8;
+    background: transparent;
+}
+
+
+
+@media only screen and (max-width: 854px){
+
+    .allstryright{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}

@@ -1,0 +1,487 @@
+
+.leftpanel{
+    display: inline-block;
+    width: 70%;
+    margin-top: 20px ;
+    font-size: 0.9rem;
+}
+.wrin {
+    display: flex;
+    align-items: center;
+}
+.wrin img{
+    width: 50px;
+}
+.leftpanel .stryimg{
+    display: block;
+    margin: 25px auto;
+}
+
+.leftpanel .stryimg img{
+    
+    display: block;
+    width: 81%;
+    margin: 0px auto;
+    box-shadow: #f1f2f3 3px 3px 10px;
+    height: 349px;
+    border-radius: 5px;
+}
+.leftpanel .strhd h2{
+
+    display: block;
+    width: 85%;
+    margin: 10px auto;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.leftpanel .stryp{
+    padding: 0px 70px;
+    word-spacing: 3px;
+    text-align:start;
+}
+.leftpanel .stryp #end{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px ;
+    width: 100%;
+}
+.leftpanel  .writer{
+
+    display: flex;
+    padding: 0 7rem 0 5rem;
+    justify-content: space-between;
+}
+ .leftpanel .sttyyp{
+     display: flex;
+     align-items: center;
+ }
+
+.leftpanel .stryp p{
+    font-size: 1rem;
+    margin: 18px;
+}
+.leftpanel .stryp .slidetop #morebtn a{
+    text-decoration: none;
+    color: #fff;
+}
+.leftpanel .stryp .slidetop #morebtn{
+
+    padding: 8px 10px;
+    background-color: #121812;
+    color: #f5fff6;
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.leftpanel .stryp #morebtn:hover{
+    background-color: #0988a8;
+}
+.leftpanel .stryp #morebtn:visited{
+    background-color: lightcoral;
+}
+
+ .slidetop{
+     display: flex;
+     justify-content:flex-end;
+     margin: 20px ;     
+    }
+    
+.slidetop img:hover{
+    color: #021e25;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    /* border: 2px solid red; */
+}
+
+.info i{
+    font-size: 2.5rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    color: #000;
+
+}
+.info i:hover{
+    color: #0988a8;
+}
+.info small{
+    font-weight: 700;
+}
+.catehd{
+    display: flex;
+    align-items: center;
+}
+.catehd img{
+
+    width: 100px;
+    border-radius: 0.4rem;
+}
+.catcont small{
+    color: #021e25;
+}
+.catcont h2{
+    color: #021e25;
+    font-size: 1.3rem;
+}
+.catcont .imp{
+        color: #d6d7d8 !important;
+}
+.catstry{
+    margin-bottom: 0.4rem;
+    transition: all 0.4s ;
+}
+.bck:hover{
+    box-shadow: 0px 4px 15px 5px #d6d7d8;
+    transform: scale3d(1.03, 1.03, 1.03);
+}
+#cmntsec{
+    display: none;
+}
+.cattag,.newstr{
+    padding: 1rem;
+}
+.cattag h1{
+    color:#0988a8;
+
+}
+
+.leftpanel .commentsection{
+
+    display: flex;
+    margin: 0.5rem 4rem;
+    border-radius: 0.3rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: 1px solid lightgray;
+    padding: 0.2rem 1rem;
+    align-items: center;
+}
+.leftpanel .commentsection .cmntimg img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    /* margin: 1.5rem 0.5rem; */
+    padding: 0.3rem;
+}
+.leftpanel .commentsection .cmntdata .username{
+    margin-left: 1rem;
+}
+.leftpanel .commentsection .cmntdata .username h2{
+
+    border-bottom: 1px solid gray ;
+    display: inline;
+}
+.leftpanel .commentsection .cmntdata .userinput{
+    margin: 0.5rem 2rem;
+    width: 100%;
+}
+.leftpanel .commentsection .cmntdata .userinput p{
+
+    font-size: 1rem;
+    background-color:  rgb(241, 236, 236);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    border-bottom:  1px solid gray ;
+}
+.cmntdata{
+    width: 74%;
+}
+.userinput form{
+    display: flex;
+}
+.userinput #usercomment{
+    padding: 0rem 7rem 0rem 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    border: none;
+    outline: none;
+     font-size: 1rem;
+    border-radius: 0.2rem;
+    border-bottom: 1px solid gray;
+}
+.userinput #morebtn{
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border: none;
+     margin: 0.5rem;
+    border-radius: 0.2rem;
+    background-color: orange;
+}
+.all{
+    font-family: 'Poppins', sans-serif;
+    background: #f1f2f3;
+    display: flex;
+}
+.rightpanel{
+    display: flex;
+    width: 33%;
+    margin-top: 6rem;
+    flex-direction: column;
+}
+.rightpanel .stry1 img{
+
+    width: -webkit-fill-available;
+    height: 200px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* margin: 20px auto; */
+    /* border-radius: 10px; */
+    /* box-shadow: 2px 2px 9px rgb(19 17 17);*/
+}
+
+.rightpanel .stry1 h2{
+        /* background: #a7ddee; */
+        text-align: center;
+        padding: 10px 0 0 0;
+        width: 70%;
+        margin: 0px auto;
+}
+.newstr small{
+
+    font-size: 1.5rem;
+}
+/* style="background: ;padding: 0.4rem 0;" */
+.rightpanel .stryshow{
+    margin: 20px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    
+    background-color:#e9e9e9;
+    box-shadow: 0 4px 5px 0 #e9e9e9;
+}
+.bck{
+    background: #fff;
+    transition: all 0.3s ;
+}
+.newstr h1{
+    color: #0988a8;
+}
+
+.rightpanel .stry1 #dot{
+    display: inline-block;
+}
+.rightpanel .stry1 #more{
+
+    display: none;
+}
+.rightpanel .stry1 p{
+    display: inline-block;
+    padding:5px 20px;
+    word-spacing: 2px;
+    text-align:center;
+}
+.rightpanel .stryno1{
+    
+    display: inline-block;
+    
+}
+
+.rightpanel .stry1 #morebtn{
+    
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+    padding: 6px 12px;
+    background-color: #121812;
+    color: #f5fff6;
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+#bt45lk{
+    border: none;
+}
+.like{
+    display: flex;
+    align-items: baseline;
+}
+.rightpanel .stry1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.rightpanel .stry1 #morebtn:hover{
+    background-color: #0988a8;
+}
+
+
+
+
+
+
+
+
+ /* responsive for mobile */
+
+ @media only screen and (max-width: 854px){
+    .all{
+        display: block;
+    }
+    .leftpanel {
+        display: block;
+        margin:0;
+        width: auto;
+    }
+    .leftpanel .card {
+        margin: 0.5rem;
+        padding: 7px;
+        border-radius: 6px;
+    }
+    .leftpanel .stryimg{
+        margin: 0.5rem;
+    }
+    .leftpanel .strhd h2{
+        margin-top: 1rem;
+    }
+    .leftpanel .stryimg img {
+        height: 46vw;
+    }
+    .leftpanel .stryp {
+         padding: 0rem;
+    }
+    .leftpanel .stryp p{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+    }
+    .leftpanel .stryp #end {
+        text-align: center;
+        display: inline-block;
+        /* font-size: 20px; */
+        font-weight: bold;
+        margin: 0;
+        width: 100%;
+    }
+    .leftpanel .writer{
+        padding: 0;
+    }
+    .wrin  {
+        display: block;
+    }
+    .leftpanel .sttyyp {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .leftpanel .commentsection{
+        margin: 0.3rem;
+    }
+    .leftpanel .commentsection .cmntimg img {
+        width: 2rem;
+        border: 1px solid gray;
+        border-radius: 0.4rem;
+        margin: 0.5rem 1rem;
+        padding: 0.2rem;
+    }
+    .leftpanel .commentsection .cmntdata .username {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    .leftpanel .commentsection .cmntdata .userinput {
+         margin: 0;
+    }
+    .leftpanel .commentsection .cmntdata .userinput small{
+
+    word-break: break-all;
+    }
+    .userinput #usercomment {
+        padding: 0.3rem 0.5rem;
+        margin: 0;
+         font-size: 0.8rem;
+    }
+    .userinput #morebtn {
+        padding: 0rem 0.5rem;
+        margin: 0 0.2rem;
+    }
+    .leftpanel .commentsection .cmntdata .username h2{
+        font-size: 0.9rem;
+    }
+    .leftpanel .commentsection .cmntdata .userinput p {
+        font-size: 0.8rem;
+    padding: 0.3rem;
+    }
+    .leftpanel .stryp .writer {
+         width: auto;
+    }
+    
+    .rightpanel {
+        width: auto;
+        display: block;
+    }
+    .rightpanel .stryshow {
+        margin: 0.4rem;
+        border-radius: 0.3rem;
+    }
+    .rightpanel .stry1 img {
+        height: 37vw;
+        margin: 10px auto;
+    }
+    .rightpanel .stry1 p {
+        padding: 0.3rem;
+        font-size: 0.9rem;
+    }  
+    .rightpanel .stry1 h2 {
+        padding: 0px 2px;
+    }
+    .rightpanel .stry1 #morebtn {
+    margin: 0.2rem;
+    padding: 0.3rem;
+     font-size: 0.8rem;
+    }
+   
+}
+
+
+
+
+/* // for ipad */
+@media only screen and (max-width: 1024px) and (min-width:854px){ 
+
+    .mainnav .mid ul li a{
+        margin: 0.5rem;
+    }
+    .all{
+        display: block;
+    }
+    .leftpanel .card {
+        margin: 11px 39px;
+        padding: 7px;
+        background-color: #e9e9e9;
+        border-radius: 6px;
+    }
+    .leftpanel {
+        display: block;
+       margin-top: 13px;
+       width: auto;
+    }
+    
+    .leftpanel .stryp {
+         padding: 0.5rem;
+    }
+    .leftpanel .writer {
+         width: auto;
+         display: flex;
+    }
+    .rightpanel {
+        width: auto;
+        margin: 1.5rem;
+    }
+    .rightpanel .stry1 img {
+        width: auto;
+        height: 37vh;
+    }
+    .rightpanel .stry1 p {
+        padding: 8px 35px;
+    }
+}

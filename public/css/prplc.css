@@ -1,0 +1,31 @@
+.pr452{
+    padding: 3rem;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    background: #F6F6F6;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.pr452 .head1211 {
+    margin: 18px 0 10px 0;
+    font-size: 36px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+
+    font-weight: 400;
+}
+.pr452  ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.pr452  ul li, ol li {
+    display: list-item;
+    list-style:disc;
+    background: none;
+}
+.pp20{
+    margin: 5px 0 5px 0;
+}
+.plo200{
+    text-decoration: none;
+    color: #fff;
+}
