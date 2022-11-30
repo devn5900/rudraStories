@@ -1,5 +1,5 @@
 <h1>RUDRA STORIES</h1>
-<p>This is the first project that i have made when i started to learn web development from diffrent-diffrent sources during lockdown. Now it is running on http://rudrastories.000webhostapp.com/ . Some functionalities are under development. It is also responsive for Diffrent-2 Screens</p>
+<p>This is the first project that i have made when i started to learn web development from diffrent sources during lockdown. Now it is running on http://rudrastories.000webhostapp.com/ . Some functionalities are under development. It is also responsive for Diffrent-2 Screens</p>
 <ul>
 <h1>Technologies</h1>
 <li>HTML</li>
