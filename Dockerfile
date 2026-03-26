@@ -1,5 +1,5 @@
-# Use PHP 8.1 (Laravel 8 compatible)
-FROM php:8.1-fpm
+# ✅ Use CLI instead of FPM
+FROM php:8.1-cli
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -21,17 +21,17 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Set working directory
 WORKDIR /var/www
 
-# Copy project files
+# Copy files
 COPY . .
 
 # Install dependencies
 RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 
-# Set permissions
-RUN chown -R www-data:www-data /var/www \
-    && chmod -R 755 /var/www/storage
+# Fix permissions
+RUN chmod -R 777 storage bootstrap/cache
 
-# Expose port
-EXPOSE 9000
+# ✅ Expose correct port
+EXPOSE 8000
 
-CMD ["php-fpm"]
+# ✅ Start Laravel server
+CMD php artisan serve --host=0.0.0.0 --port=$PORT
