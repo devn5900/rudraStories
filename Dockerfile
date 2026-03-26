@@ -31,7 +31,7 @@ RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 RUN chmod -R 777 storage bootstrap/cache
 
 # ✅ Expose correct port
-EXPOSE 8000
+EXPOSE 10000
 
 # ✅ Start Laravel server
-CMD php artisan serve --host=0.0.0.0 --port=$PORT
+CMD echo "PORT is $PORT" && php artisan serve --host=0.0.0.0 --port=${PORT:-10000}
